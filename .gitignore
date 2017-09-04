@@ -1,0 +1,14 @@
+# Don't check auto-generated stuff into git
+node_modules
+dist/stats.json
+coverage
+lib
+!src/lib
+!src/lib/getTransactionSuccess.js
+!getTransactionSuccess.js
+dist/bundle.js
+dist/bundle.min.js
+
+# Cruft
+.DS_Store
+npm-debug.log
