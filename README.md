@@ -64,8 +64,6 @@ npm start
 
 ## Test
 
-**Ensure TestRPC is running `npm start`.
-
 ```
 npm test
 ```
@@ -80,8 +78,8 @@ npm run test:contracts:js
 
 ## Deployment
 
-**Specify your account information in `internals/accounts/index.js`
-**Remember, do not publish/include your actual private keys in the repo.. require them from a source outside the repository
+**Specify your account information in `internals/accounts/index.js`**
+**Remember, do not publish/include your actual private keys in the repo.. require them from a source outside the repository**
 
 ```
 npm run deploy:mainnet
@@ -92,7 +90,7 @@ npm run deploy:testrpc
 
 ## Build
 
-**This will build the outputted contract data (address/abi/interface etc).
+**This will build the outputted contract data (address/abi/interface etc).**
 
 ```
 npm run build
@@ -110,15 +108,15 @@ All build/deployment data is outputed to `src/contracts/lib` directory.
 
 ## Internals
 
-**Account Management (`internals/accounts`)
+**Account Management (`internals/accounts`)**
 All account data is included in the accounts directory. This is where you can define your account private keys/addresses/balances.
 
 This boierplate is configured to use the same account accross all environments.
 
-**Contract Deployment (`internals/ethdeploy`)
+**Contract Deployment (`internals/ethdeploy`)**
 All deployment configuration is included in this directory.
 
-**Distribution (`internals/webpack`)
+**Distribution (`internals/webpack`)**
 All webpack related configuration is in this directory.
 
 ## Contributing
