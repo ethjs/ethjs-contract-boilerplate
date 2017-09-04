@@ -56,7 +56,7 @@ npm install
 
 ## Start
 
-**This will start a testrpc instance which is used for JS testing.
+**This will start a testrpc instance which is used for JS testing.**
 
 ```
 npm start
@@ -79,6 +79,7 @@ npm run test:contracts:js
 ## Deployment
 
 **Specify your account information in `internals/accounts/index.js`**
+
 **Remember, do not publish/include your actual private keys in the repo.. require them from a source outside the repository**
 
 ```
@@ -109,14 +110,17 @@ All build/deployment data is outputed to `src/contracts/lib` directory.
 ## Internals
 
 **Account Management (`internals/accounts`)**
+
 All account data is included in the accounts directory. This is where you can define your account private keys/addresses/balances.
 
 This boierplate is configured to use the same account accross all environments.
 
 **Contract Deployment (`internals/ethdeploy`)**
+
 All deployment configuration is included in this directory.
 
 **Distribution (`internals/webpack`)**
+
 All webpack related configuration is in this directory.
 
 ## Contributing
