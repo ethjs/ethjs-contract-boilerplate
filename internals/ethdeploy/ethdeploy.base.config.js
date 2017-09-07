@@ -20,6 +20,7 @@ module.exports = environment => (options) => ({ // eslint-disable-line
         loader: 'ethdeploy-solc-loader',
         base: 'src/contracts/',
         filterFilenames: true,
+        filterWarnings: true,
         adjustBase: true,
       },
     ],
