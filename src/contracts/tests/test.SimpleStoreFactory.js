@@ -28,6 +28,7 @@ describe('SimpleStoreFactory', () => {
       defaultTxObject
     );
 
+    // create tx
     const createTxHash = await simpleStoreFactory.createSimpleStore(new Eth.BN('45000'));
     const createReceipt = await eth.getTransactionSuccess(createTxHash);
 

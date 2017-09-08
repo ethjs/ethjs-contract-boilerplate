@@ -1,6 +1,6 @@
 {
   "name": "ethjs-contract-boilerplate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An Ethereum contract boilerplate using EthJS, wafr and ethdeploy.",
   "main": "src/index.js",
   "scripts": {
@@ -80,10 +80,10 @@
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "3.0.2",
     "eslint-plugin-react": "6.9.0",
-    "ethdeploy": "1.0.7",
+    "ethdeploy": "1.0.9",
     "ethdeploy-environment-loader": "1.0.0",
     "ethdeploy-solc-loader": "1.0.6",
-    "ethjs": "^0.2.7",
+    "ethjs": "0.2.7",
     "ethjs-provider-signer": "0.1.4",
     "ethjs-signer": "0.1.1",
     "html-webpack-plugin": "2.28.0",
