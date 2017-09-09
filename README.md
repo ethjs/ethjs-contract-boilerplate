@@ -138,6 +138,7 @@ The current TODO items are:
 
  - A clear command (clear all boilerplate contracts/tests)
  - Plop enabled contract instantiation
+ - Account generation/wallet management
 
 ## Important documents
 
