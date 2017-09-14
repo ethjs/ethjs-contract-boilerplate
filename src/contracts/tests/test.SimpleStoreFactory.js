@@ -21,7 +21,6 @@ describe('SimpleStoreFactory', () => {
     );
 
     const simpleStoreFactory = SimpleStoreFactory.at(environment.SimpleStoreFactory.address);
-
     const SimpleStore = eth.contract(
       JSON.parse(contracts.SimpleStore.interface),
       contracts.SimpleStore.bytecode,
@@ -31,6 +30,8 @@ describe('SimpleStoreFactory', () => {
     // create tx
     const createTxHash = await simpleStoreFactory.createSimpleStore(new Eth.BN('45000'));
     const createReceipt = await eth.getTransactionSuccess(createTxHash);
+
+    assert.isOk(createReceipt.logs.length, 'has logs');
 
     // decode log information for simple store address
     const creationLog = createReceipt.logs[1];

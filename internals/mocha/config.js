@@ -11,7 +11,7 @@ const contracts = environments.contracts;
 const eth = new Eth(new HTTPProvider('http://localhost:8545'));
 const defaultTxObject = {
   from: accounts[0].address,
-  gas: 3000000,
+  gas: 4500000,
 };
 
 module.exports = {

@@ -54,6 +54,8 @@
   },
   "homepage": "https://github.com/ethjs/ethjs-contract-boilerplate#readme",
   "dependencies": {
+    "ethdeploy": "^1.0.7",
+    "ethereumjs-testrpc": "^4.1.1",
     "ethjs": "0.2.8",
     "ethjs-provider-http": "0.1.6",
     "solc": "0.4.16"
@@ -63,7 +65,7 @@
     "babel-core": "6.22.1",
     "babel-eslint": "7.1.1",
     "babel-loader": "6.2.10",
-    "ethereumjs-testrpc": "3.0.5",
+    "ethereumjs-testrpc": "4.1.1",
     "babel-plugin-transform-async-to-generator": "6.22.0",
     "babel-plugin-transform-es2015-modules-commonjs": "6.22.0",
     "babel-polyfill": "6.22.0",
@@ -80,7 +82,7 @@
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "3.0.2",
     "eslint-plugin-react": "6.9.0",
-    "ethdeploy": "1.0.9",
+    "ethdeploy": "1.1.0",
     "ethdeploy-environment-loader": "1.0.0",
     "ethdeploy-solc-loader": "1.0.6",
     "ethjs": "0.2.7",
