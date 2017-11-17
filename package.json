@@ -17,7 +17,7 @@
     "test": "npm run test:contracts",
     "test:contracts": "npm run test:contracts:solidity && npm run test:contracts:js",
     "test:contracts:solidity": "wafr ./src/contracts",
-    "test:contracts:js": "npm run deploy:testrpc && npm run test:conracts:js:mocha",
+    "test:contracts:js": "npm run deploy:testrpc && npm run test:contracts:js:mocha",
     "test:conracts:js:mocha": "mocha src/contracts/**/*test.**.js -R spec --timeout 2000000 --compilers js:babel-core/register --require ./internals/mocha/index",
     "lint": "npm run lint:js",
     "lint:eslint": "eslint --ignore-path .gitignore --ignore-pattern **/**.min.js",
